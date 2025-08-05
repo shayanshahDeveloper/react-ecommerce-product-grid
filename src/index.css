@@ -1,0 +1,36 @@
+.cart {
+  border: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+.cart:hover {
+  background-color: rgb(191, 203, 213);
+  border: none;
+}
+
+.logout {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.logout:hover {
+  background-color: rgb(182, 39, 39);
+}
+
+.cart-item {
+  background-color: red;
+  display: inline-block;
+  padding-top: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+}
